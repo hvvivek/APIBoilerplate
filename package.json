@@ -1,0 +1,29 @@
+{
+  "name": "apiboilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for quick API deployments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hvvivek/APIBoilerplate.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "node",
+    "nodejs",
+    "api"
+  ],
+  "author": "Vivek HV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hvvivek/APIBoilerplate/issues"
+  },
+  "homepage": "https://github.com/hvvivek/APIBoilerplate#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.11"
+  }
+}

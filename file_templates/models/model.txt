@@ -1,0 +1,13 @@
+
+var mongoose = require('mongoose'),
+    Schema = mongoose.Schema
+
+var ${ModelName}Schema = new mongoose.Schema(
+    {
+         ${Pipe_Fields}
+    },
+    ${Pipe_Timestamps}
+)
+
+var ${ModelName}Model = new mongoose.model('${ModelName}Model', ${ModelName}Schema)
+module.exports = ${ModelName}Model

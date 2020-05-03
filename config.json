@@ -1,0 +1,22 @@
+{
+    "name":"api boilerplate",
+    "models": [
+        {
+            "name": "ModelA",
+            "fields": [
+                {"name": "AField1", "type": "String"},
+                {"name": "AField2", "type": "Number"}
+            ],
+            "timestamps": true
+        },
+        {
+            "name": "ModelB",
+            "fields": [
+                {"name": "BField1", "type": "String"},
+                {"name": "BField2", "type": "Number"},
+                {"name": "BField3", "type": "Boolean"}
+            ],
+            "timestamps": true
+        }
+    ]
+}
